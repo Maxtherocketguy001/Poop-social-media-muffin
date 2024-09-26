@@ -75,8 +75,5 @@ function checkCredentials() {
 
 // Add event listener for form submission
 
-function meme()
-{
-	document.getElementById("outputy").innerHTML += document.getElementById("meme").value
-}
+
 
