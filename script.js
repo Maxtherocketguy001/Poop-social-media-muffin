@@ -57,18 +57,13 @@ function checkCredentials() {
     const password = passwordInput.value;
 
     if (username === 'BASIS' && password === '1234!') {
-	alert('Login successful!');
-	
-	window.location.href = 'https://bit.ly/the-power-of-link';
-    } else{
-	alert('Invalid username or password. Please try again.');
+	window.location.href = 'meme.html';
     }
-    if (username === 'TRUMP' && password === 'MakeAmericaGreatAgain') {
-        alert('Login successful!');
-
-        window.location.href = 'https://bit.ly/the-power-of-link';
+    else if (username === 'TRUMP' && password === 'MakeAmericaGreatAgain') {
+     
+        window.location.href = 'profile.html';
         } else{
-        alert('Invalid username or password. Please try again.');
+        window.location.href = 'ban.html';
         }
     
 }
